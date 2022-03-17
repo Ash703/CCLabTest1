@@ -14,14 +14,14 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">Students Information</a>
+	    <a class="navbar-brand" href="#">Employee Information</a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	  </div>
 	</nav>
 	<div class="container my-3">
-		<h2> All the students whose Employee Id is <u><i><%=request.getAttribute("empid")%></i></u></h2>
+		<h2> All the Employees whose Employee Id is <u><i><%=request.getAttribute("empid")%></i></u></h2>
 	
 		<table class="mt-5" border ="1" width="900" align="center">
          <tr bgcolor="FFFF00">
